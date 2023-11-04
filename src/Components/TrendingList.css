@@ -1,0 +1,7 @@
+.trending-container {
+  width: 85%;
+  height: 400px;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
