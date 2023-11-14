@@ -6,10 +6,11 @@ import Button from '@mui/material/Button';
 const Header = () => {
 
   return (
-    <div className="header">
+    <Stack spacing={2} direction="row">
       <Button variant="text">Text</Button>
+      <Button variant="contained">Contained</Button>
 
-    </div>
+    </Stack>
   )
 }
 
