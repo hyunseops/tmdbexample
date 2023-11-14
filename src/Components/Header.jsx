@@ -7,7 +7,7 @@ const Header = () => {
 
   return (
     <div className="header">
-      <Button style ={{height:30 ,variant:"text"}}>Text</Button>
+      <Button style ={{height:100 ,variant:"text"}}>Text</Button>
       <Button variant="contained">Contained</Button>
 
     </div>
