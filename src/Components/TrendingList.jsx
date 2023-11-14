@@ -19,7 +19,7 @@ const TrendingList = () => {
     })
       .then((res) => {
         console.log(res)
-        setMovieList(res.data.results.slice(0, 5));
+        setMovieList(res.data.results.slice(0, 8));
       });
   }, []);
 
