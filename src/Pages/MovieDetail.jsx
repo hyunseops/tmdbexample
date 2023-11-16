@@ -2,6 +2,7 @@ import axios from "axios";
 import { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
 
+
 const MovieDetail = () => {
   const param = useParams()
   const [movie, setMovie] = useState()
@@ -25,7 +26,10 @@ const MovieDetail = () => {
   return (
     <div>
       {movie ? <img src={`https://image.tmdb.org/t/p/w500${movie.poster_path}`}></img> : null}
-      <span>{movie? movie.title : null}</span>
+      <div className="mx-auto flex flex-cols">
+        <span>{movie? movie.title : null}</span>
+        
+      </div>
     </div>
   )
 }
