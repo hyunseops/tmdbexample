@@ -14,6 +14,7 @@ const MainImage = () => {
             name="title"
             
           />
+          
           <button style={{width:100,height:30}}
             type="submit"
             
